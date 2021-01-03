@@ -1,39 +1,40 @@
-body{
-    background-color: FloralWhite;
+body {
+    background-color: black;
     margin: 0;
     padding: 0;
-    font-family: Helvetica, sans-serif;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Fira Sans",
+    "Droid Sans","Helvetica Neue",sans-serif;
     font-weight: bold;
+    color: white;
 }
 
-.form{
+.form {
     width: 400px;
     margin: auto;
     padding-top: 100px;
 }
 
-.card{
-    box-shadow: 1px 1px 5px #ccc;
-    background-color: white;
+.card {
+    background-color: black;
     padding: 30px;
     border-radius: 5px;
+    height: 380px;
+    border-style: solid;
+    border-image-slice: 1;
+    border-width: 1px;
+    border-image-source: linear-gradient(to bottom, #ef017c, #000000,#ef017c);
 }
 
-.card-top{
+.card-top {
     text-align: center;
 }
 
-.img-login{
-   
+.img-login {
+    width: 100px;
     border-radius: 50%;
-    width: 60px;
 }
 
-.login-text{
-
-}
-
-.card-group{
+.card-group {
     margin-bottom: 10px;
 }
 
@@ -46,8 +47,8 @@ body{
     box-sizing: border-box;
     border-style: solid;
     border-width: 1px;
-    border-color: #2133ff;
-    outline: 0;
+    border-color: #ef017c;
+    box-shadow: inset 0 0 0.5em #ef017c;
     border-radius: 2px;
     width: 100%;
     height: 30px;
@@ -61,18 +62,16 @@ body{
     color: white;
     border-radius: 2px;
     border: 0px;
-    outline: 0;
     background-image: linear-gradient(to right, #2133ff, #ef017c);
 }
 
-.btn button:hover{
-    background-image: linear-gradient(to right, #2133ff, #960550);
+.btn button:hover {
+    background-image: linear-gradient(to right, #2133ff, #dd8fb7);
     box-shadow: 0px 0px 10px 0.5px #ef017c;
 }
 
-.form-check{
+.form-check {
     font-weight: normal;
     font-size: 13px;
-    bottom: 2px;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
