@@ -21,6 +21,7 @@ if($row == 1) {
     header('Location: dash.php');
     exit();
 } else {
+    $_SESSION['not_authenticated'] = true;
     header('Location: index.php');
     exit();
 }
